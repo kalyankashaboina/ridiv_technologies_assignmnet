@@ -49,7 +49,7 @@ try{
       const newTodo={...data,id:todo.length+1}
     setTodo([...todo,newTodo])
    
-    setData({ title: "", completed: false });
+    setData({ title: "", completed:true });
     console.log("newtodos",newTodo)
    
     // axios.post("https://jsonplaceholder.typicode.com/todos",newTodo)
