@@ -7,7 +7,7 @@ import { BsCheckLg, BsX } from 'react-icons/bs'
 
 function Todos() {
 
-const[data,setData]=useState({title:"",userId:0})
+const[data,setData]=useState({title:"",userId:0,completed:true})
 
 const[todo,setTodo]=useState([])
 // const[completed,setcompleted]=useState(false)
