@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import ButtonComponent from './buttons'
 import axios from 'axios'
-import { AiOutlineCheck, AiOutlineDelete } from 'react-icons/ai'
+import {AiOutlineDelete } from 'react-icons/ai'
 import { BsCheckLg, BsX } from 'react-icons/bs'
-import { AiOutlineCloseCircle } from 'react-icons/ai';
+
 
 function Todos() {
 
